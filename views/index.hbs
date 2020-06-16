@@ -1,0 +1,13 @@
+<h1>This is a quote website</h1>
+<h2>You can get a quote for the day</h2>
+
+<form action="/api/quotes/" method="GET">
+<button class="btn btn-primary">Go to quotes</button>
+</form>
+
+<p>{{ description }}</p>
+
+{{!-- <a href="/api/newQuote"></a> --}}
+<form action="/newQuote" method="GET">
+<button class="btn btn-success">Create a new quote</button>
+</form>
